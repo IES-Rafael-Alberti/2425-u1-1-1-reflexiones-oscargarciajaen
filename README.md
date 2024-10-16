@@ -12,15 +12,15 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
+- **ID de la Actividad:** Práctica 1: Introducción al desarrollo. Reflexiones.
+- **Módulo:** EDES
 - **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
+- **Fecha de Creación:** 15/10/2024
 - **Fecha de Entrega:** [Fecha de entrega]
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Óscar García Jaén
+  - **Correo electrónico:** ogarjae565@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** OGJ
 
 ## Descripción de la Actividad
 [Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
@@ -48,6 +48,75 @@ Apoyate en los siguientes recursos para realizar la práctica:
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
 [Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+
+# P 1.10: Reflexión y discusión sobre los resultados
+## 1. Relación software y hardware
+### 1.1. Primera parte
+
+1.1.1. ¿Cómo se ejecuta el código en el procesador?
+
+El procesador toma las instrucciones de un programa y realiza los cálculos necesarios para su funcionamiento.
+
+1.1.2. ¿Qué hace la memoria RAM con la información del botón o el LED?
+
+Almacena de forma temporal la información y las instrucciones de funcionamiento del botón para accionarlas sobre el LED.
+
+1.1.3. ¿Cómo se comunican los periféricos (botón y LED) con el procesador?
+
+Mediante el sistema de entrada salida dele procesador, introduciendo el dato en la ALU.
+
+### 1.2. Segunda parte
+
+1.2.1. ¿Cómo interactúan el procesador, la memoria y los periféricos en la ejecución del programa?
+
+El programa se carga en memoria RAM, posteriormente el procesador empieza a ejecutar las instrucciones, si hay una operacion de entrada, se utilizara el teclado para introducir el dato requerido, que posteriormente se almacenará en alguna celda de memoria.
+
+1.2.2. ¿Qué pasa con los datos en la memoria cuando el programa se ejecuta?
+
+Se guarda el dato en alguna celda de memoria hasta la finalización del mismo.
+
+1.2.3. ¿Qué roles juegan las instrucciones del software en esta interacción?
+
+Son las que dictaminan si el dato que se encuentra en memoria RAM es necesario para otra operación o se mantiene en la celda de memoria.
+
+1.2.4. ¿Cómo se relaciona esta simulación con lo que ocurre en un ordenador real?
+
+Esta simulacíon representa como el procesador ejecuta un programa utilizando las instrucciones que estan situadas en memoria RAM, tambien almacena los datos introducidos por teclado en alguna celda de memoria, para luego ser utilizados en alguna operación.
+
+## 2. Del código fuente al ejecutable
+
+2.1. ¿Cómo se diferencia el código fuente del código objeto y del ejecutable?
+
+El código fuente es el que es escrito por el programador en algun lenguaje y el ejecutable es directamente el ensamblado para utilizarlo
+
+2.2. ¿Por qué el ordenador no puede entender el código fuente directamente?
+
+Porque el equipo solo entiende el lenguaje máquina que consta de unos y ceros.
+
+2.3. ¿Por qué es importante el paso de enlazado en la creación de programas?
+
+Porque fusiona todos los archivos generados del código objeto en uno solo ejecutable.
+
+2.4. ¿Qué ocurre si falta alguna de las etapas (código objeto o ejecutable)?
+
+Si el que falta es el ejecutable, a partir del código objeto podemos obtener el ejecutable, mientras que si tenemos el ejecutable no podemos obtener el codigo objeto a través de él.
+
+## 3. Generación de código intermedio
+
+3.1. ¿Cómo difiere el código intermedio del código ejecutable tradicional?
+
+Es un tipo de código genérico, 
+
+3.2. ¿Por qué es útil tener una máquina virtual?
+
+
+
+3.3. ¿Qué ventajas ofrece el código intermedio?
+
+
+
+3.4. ¿Además de java, qué otros lenguajes usan máquinas virtuales?
+
 
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
