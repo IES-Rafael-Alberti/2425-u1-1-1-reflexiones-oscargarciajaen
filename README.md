@@ -105,18 +105,69 @@ Si el que falta es el ejecutable, a partir del código objeto podemos obtener el
 
 3.1. ¿Cómo difiere el código intermedio del código ejecutable tradicional?
 
-Es un tipo de código genérico, 
+Es un tipo de código genérico, que puede ser ejecutado por diferentes máquinas virtuales de diferentes S.O.
 
 3.2. ¿Por qué es útil tener una máquina virtual?
 
-
+Porque hace de intermediario entre el código intermedio  y el hardware. Se encarga de ejecutar el código intermedio, traduciendolo a instrucciones que entienda el procesador.
 
 3.3. ¿Qué ventajas ofrece el código intermedio?
 
-
+Portabilidad, seguridad y optimización de tiempo de ejecución.
 
 3.4. ¿Además de java, qué otros lenguajes usan máquinas virtuales?
 
+Otro lenguaje puede ser C#
+
+## 4. Lenguajes de programación
+
+### 4.1. Primera parte
+
+Compara el proceso de ejecución entre el lenguaje compilado y el interpretado.
+
+4.1.1. ¿Qué diferencias notaron en el proceso de compilación frente a la ejecución directa?
+
+*por responder*
+
+4.1.2. ¿Qué pasa si hay un error de sintaxis en cada lenguaje? ¿Cuándo se detecta el error?
+
+En lenguaje interpretado se detecta el error en tiempo de ejecución, este acabara con la ejecución del programa.
+
+En lenguaje compilado el error se detecta en la compilación y no compila el programa.
+
+### 4.2. Segunda parte
+
+Compara un lenguaje de alto nivel con uno de bajo nivel.
+
+4.2.1. ¿Qué notaron sobre la abstracción entre los lenguajes de alto nivel y bajo nivel?
+
+*Por responder*
+
+4.2.2. ¿Qué ventajas y desventajas encontraron en cada uno?
+
+El de alto nivel es más cercano al humano y cuenta con muchas funcionalidades que ayudan al desarrollador pero cuenta con menos control del sistema.
+
+El de bajo nivel es más cercano a la máquina y ofrece mayor control y eficiencia del sistema pero es mas complejo de escribir y comprender.
+
+### 4.3. Tercera parte
+
+Compara un lenguaje orientado a objetos vs funcional.
+
+4.3.1. ¿Cómo funciona la organización de datos en Java usando objetos y métodos?
+
+
+
+4.3.2. ¿Cómo es diferente trabajar en un enfoque funcional en Python, usando solo funciones puras?
+
+### 4.4. Reflexión final
+
+4.4.1. ¿Qué lenguajes se sintieron más fáciles de usar? ¿Por qué?
+
+4.4.2. ¿En qué casos es preferible usar un lenguaje compilado frente a uno interpretado?
+
+4.4.3. ¿Cuándo es mejor usar un lenguaje de alto nivel en lugar de uno de bajo nivel?
+
+4.4.4. ¿Cómo se siente trabajar con el paradigma orientado a objetos en comparación con el imperativo o funcional?
 
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
