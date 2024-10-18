@@ -155,19 +155,85 @@ Compara un lenguaje orientado a objetos vs funcional.
 
 4.3.1. ¿Cómo funciona la organización de datos en Java usando objetos y métodos?
 
-
+Se organiza el código en objetos o instancias de clases. Los objetos encapsulan datos y comportamientos.
 
 4.3.2. ¿Cómo es diferente trabajar en un enfoque funcional en Python, usando solo funciones puras?
+
+Las funciones puras son aquellas que dado el mismo conjunto de datos la función siempre devolvera el mismo resultado. El uso de funciones puras es muy recomendable ya que garantiza la integridad de los datos y la repetibilidad de los resultados.
 
 ### 4.4. Reflexión final
 
 4.4.1. ¿Qué lenguajes se sintieron más fáciles de usar? ¿Por qué?
 
+Sentí más fáciles los lenguajes Python, JavaScript, Ruby, PHP ya que son lenguajes interpretados, estos son más lentos pero más sencillos al  no tener que compilar
+
 4.4.2. ¿En qué casos es preferible usar un lenguaje compilado frente a uno interpretado?
+
+En caso de que el rendimiento y optimización sean cruciales la mejor opción son los compilados.
 
 4.4.3. ¿Cuándo es mejor usar un lenguaje de alto nivel en lugar de uno de bajo nivel?
 
+El de alto nivel es mejor cuando se requiere un desarrollo rápido, mantenimiento y portabilidad, ya que es un lenguaje más comodo de mantener y mejorar.
+
 4.4.4. ¿Cómo se siente trabajar con el paradigma orientado a objetos en comparación con el imperativo o funcional?
+
+*Por responder*
+
+## 5. Herramientas de desarrollo
+### 5.1. Primera parte
+Respecto a las proceso de creación de software identifica un conjunto de herramientas a usar.
+
+5.1.1. ¿Qué hace cada una de las herramientas?
+
+Editores de texto: es una herramienta básica utilizada para escribir y modificar el código, son versátiles y ligeros.
+
+Compiladores: son los encargados de traducir el código fuente a código máquina, el codigo generado es específico para el sistema operativo  y arquitectura de la máquina donde se ejecuta.
+
+Intérpretes: es el encargado de ejecutar el código fuente línea por línea, sin necesidad de compilarlo  previamente a código máquina.
+
+Herramientas de documentación: esta herramienta analiza el código fuente y genera documentación automáticamente a partir de comentarios y anotaciones
+
+Depuradores: estas herramientas permiten detener la ejecución de un programa en puntos específicos para examinar su estado inteno y para encontrar errores lógicos y fallos.
+
+Sistema de gestión de versiones: permiten a los desarrolladores rastrear cambios en el código, trabajar en diferentes ramas de desarrollo y colaborar sin riesgo de sobreescribir el trabajo de otros.
+
+Frameworks: son los encargados de proporcionar una estructura predefinida para desarrollar aplicaciones, facilita la creación de proyectos mediante librerías y plantillas.
+
+Herramientas para pruebas y calidad de código: asegura que el software funciona como debe. Puede realizar pruebas automáticas del software, como unitarias hasta de carga y rendimiento.
+
+5.1.2. ¿Qué tipo de tareas facilita?
+
+
+
+5.1.3. ¿Qué características ofrece que la hacen única o diferente de otras herramientas similares?
+
+5.1.4. Elige una ¿Cómo es la experiencia de usuario al usarla? ¿Es fácil o compleja?
+
+5.1.5. Elige una ¿En qué situaciones sería ideal utilizar esta herramienta?
+
+5.1.6. Elige una ¿Qué limitaciones encontraste en la herramienta?
+
+### 5.2. Segunda parte
+Céntrate en una herramienta dentro de la misma categoría y compárala con otras:
+
+5.2.1. ¿Qué herramienta se considera más útil y por qué?
+
+5.2.2. ¿Qué ventajas tiene una sobre la otra?
+
+5.2.3. ¿Cuál herramienta resultó ser la más intuitiva y por qué?
+
+5.2.4. ¿En qué casos se recomendaría usar un compilador en lugar de un intérprete?
+
+5.2.5. ¿Qué tipo de proyectos se beneficiarían más de un framework como Django?
+
+### 5.3. Reflexión final
+Con base en la experiencia de evaluación de las herramientas:
+
+5.3.1. ¿Cómo crees que impacta la elección de la herramienta en la calidad del software?
+
+5.3.2. ¿Qué características buscarías en una herramienta para facilitar tu flujo de trabajo?
+
+5.3.3. ¿Cómo cambió tu percepción de estas herramientas después de haberlas probado y evaluado?
 
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
@@ -198,3 +264,6 @@ Compara un lenguaje orientado a objetos vs funcional.
    - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
 4. **Compilación y Ejecución:**
    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+
+### Bibliografia
+https://es.linkedin.com/pulse/qu%C3%A9-es-una-funci%C3%B3n-pura-y-c%C3%B3mo-funciona-jorge-arias-arg%C3%BCelles
