@@ -16,7 +16,7 @@ Apoyate en los siguientes recursos para realizar la práctica:
 - **Módulo:** EDES
 - **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
 - **Fecha de Creación:** 15/10/2024
-- **Fecha de Entrega:** [Fecha de entrega]
+- **Fecha de Entrega:** 20/10/2024
 - **Alumno(s):** 
   - **Nombre y Apellidos:** Óscar García Jaén
   - **Correo electrónico:** ogarjae565@g.educaand.es
