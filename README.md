@@ -127,7 +127,7 @@ Compara el proceso de ejecución entre el lenguaje compilado y el interpretado.
 
 4.1.1. ¿Qué diferencias notaron en el proceso de compilación frente a la ejecución directa?
 
-*por responder*
+Que en la compilación debe de traducirse a código máquina y en la interpretación se traduce a la vez que se ejecuta línea a línea,
 
 4.1.2. ¿Qué pasa si hay un error de sintaxis en cada lenguaje? ¿Cuándo se detecta el error?
 
@@ -141,7 +141,7 @@ Compara un lenguaje de alto nivel con uno de bajo nivel.
 
 4.2.1. ¿Qué notaron sobre la abstracción entre los lenguajes de alto nivel y bajo nivel?
 
-*Por responder*
+Que el lenguaje de bajo nivel es el más cercano a la máquina y es posible optimizar el sistema, a su vez el de alto nivel es mas cercano al humano lo que permite mayor comprensión por el mismo pero menos control sobre el sistema.
 
 4.2.2. ¿Qué ventajas y desventajas encontraron en cada uno?
 
@@ -177,7 +177,7 @@ El de alto nivel es mejor cuando se requiere un desarrollo rápido, mantenimient
 
 4.4.4. ¿Cómo se siente trabajar con el paradigma orientado a objetos en comparación con el imperativo o funcional?
 
-*Por responder*
+El orientado a objetos es mas organizado y estructurado, enfocandose en objetos, el inmperativo da las instrucciones paso a paso y el funcional trata de funciones puras. 
 
 ## 5. Herramientas de desarrollo
 ### 5.1. Primera parte
@@ -203,37 +203,83 @@ Herramientas para pruebas y calidad de código: asegura que el software funciona
 
 5.1.2. ¿Qué tipo de tareas facilita?
 
+Compilador: facilita la traducción de código fuente a código máquina.
 
+Intérprete: facilita la ejecución del programa (línea a línea)
+
+Herramientas de documentación: facilita la documentación que explica el funcionamiento y la lógica del programa.
+
+Depurador: facilita la busqueda de fallos en el código pudiendo tambien dividirlo en varias partes.
+
+Sistema gestor de versiones: facilita el trabajo en equipo sin riesgo de corromper el trabajo del resto de miembros del equipo.
+
+Framework: facilita el propio desarrollo del programa ya que hace más sencillo el uso de una estructura predefinida.
 
 5.1.3. ¿Qué características ofrece que la hacen única o diferente de otras herramientas similares?
 
+Compilador: lo que la diferencia es la facilidad para convertir un código a lenguaje máquina.
+
+Interprete: esta se ve diferenciada ya que puede ejecutar un programa sin antes una compilación.
+
+Herramientas de documentación: esta herramienta genera un documento con todas las anotaciones y comentarios.
+
+Depurador: Se diferencia en su capacidad de de revisar el código por partes y no de una vez.
+
+Sistema gestor de versiones: esta herramienta se diferencia en su capacidad de tener todo centralizado en un mismo lugar y tener todas las versiones.
+
+Framework: esta herramienta facilita el tener una estructura predefinida para facilitar su desarrollo
+
+Herramientas para pruebas de calidad del código: el poder comprobar el codigo y su estructura de forma sencilla.
+
 5.1.4. Elige una ¿Cómo es la experiencia de usuario al usarla? ¿Es fácil o compleja?
+
+El editor de texto desde el lado del editor es algo compleja ya que continua siendo un editor de texto convencional para desarrollar código, mientras que el IDE facilita el desarrollo ya que puede instalar extensiones y funcionalidades que permiten trabajar mejor.
 
 5.1.5. Elige una ¿En qué situaciones sería ideal utilizar esta herramienta?
 
+IDE: ya que a la hora de desarrollar tu programa es más sencillo gracias a todas las facilidades que este proporciona.
+
 5.1.6. Elige una ¿Qué limitaciones encontraste en la herramienta?
+
+El editor de texto ya qu este no cuenta con tantas funcionalidades añadibles como el IDE, por lo que lo considero mucho peor.
 
 ### 5.2. Segunda parte
 Céntrate en una herramienta dentro de la misma categoría y compárala con otras:
 
 5.2.1. ¿Qué herramienta se considera más útil y por qué?
 
+El IDE ya que puede ayudar mucho a la hora de realizar tu trabajo gracias a todas las funcionalidades que puede llegar a tener.
+
 5.2.2. ¿Qué ventajas tiene una sobre la otra?
+
+Que a la hora de desarrollar tu trabajo es mucho más eficiente que si utilizas un editor convencional.
 
 5.2.3. ¿Cuál herramienta resultó ser la más intuitiva y por qué?
 
+El IDE ya que al poner el lenguaje que se iba a utilizar ya da ayudas de como iniciar.
+
 5.2.4. ¿En qué casos se recomendaría usar un compilador en lugar de un intérprete?
 
+Cuando sea necesario el rendimiento y optimización del código.
+
 5.2.5. ¿Qué tipo de proyectos se beneficiarían más de un framework como Django?
+
+Los proyectos web que necesiten de un desarrollo rápido y escalabilidad, como por ejemplo RRSS y negocios online.
 
 ### 5.3. Reflexión final
 Con base en la experiencia de evaluación de las herramientas:
 
 5.3.1. ¿Cómo crees que impacta la elección de la herramienta en la calidad del software?
 
+Tiene un gran impacto ya que la elección de la herramienta puede facilitarte el desarrollo del software mejorando asi su calidad.
+
 5.3.2. ¿Qué características buscarías en una herramienta para facilitar tu flujo de trabajo?
 
+Pues buscaria eficiencia en el sentido de buscar una herramienta que me ayude a realizarlo en un menor tiempo, tambien buscaría alguna que me ayudase a corregir los errores de una forma más sencilla y más explicita.
+
 5.3.3. ¿Cómo cambió tu percepción de estas herramientas después de haberlas probado y evaluado?
+
+Hubo un gran cambio ya que he aprendido que una buena utilización de dichas herramientas puede ayudarte a realizar un trabajo de mayor calidad con mucha más facilidad.
 
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
